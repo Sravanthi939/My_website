@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BM Suresh Agro</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Navigation Bar -->
     <header>
-        <h1>BM Suresh Agro</h1>
-        <p>Your Trusted Partner in Agro Products</p>
+        <nav class="navbar">
+            <h1 class="logo">BM Suresh Agro</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Home Section -->
-    <section id="home">
-        <h2>Welcome to BM Suresh Agro</h2>
-        <p>We provide the highest quality seeds, fertilizers, and farming solutions to help farmers grow better and earn better.</p>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Your Trusted Partner in Agro Products</h2>
+            <p>Providing quality seeds, fertilizers, and farming solutions to help farmers grow better.</p>
+            <a href="#products" class="btn">Explore Products</a>
+        </div>
     </section>
 
     <!-- Products Section -->
-    <section id="products">
+    <section class="products" id="products">
         <h2>Our Products</h2>
-        <div class="products">
+        <div class="product-cards">
             <div class="card">
                 <h3>Seeds</h3>
+                <p>High-quality seeds for better yields.</p>
+            </div>
+            <div class="card">
+                <h3>Fertilizers</h3>
+                <p>Organic and chemical fertilizers available.</p>
+            </div>
+            <div class="card">
+                <h3>Pesticides</h3>
+                <p>Effective pest control for your crops.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+            BM Suresh Agro has been serving farmers for years with high-quality agricultural products
+            and trusted solutions. Our mission is to empower farmers and improve productivity.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@bmsureshagro.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Address: Main Road, Andhra Pradesh, India</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BM Suresh Agro | All Rights Reserved</p>
+    </footer>
+</body>
+</html>                <h3>Seeds</h3>
                 <p>High-quality seeds for better yields.</p>
             </div>
             <div class="card">
